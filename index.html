@@ -68,7 +68,24 @@
 			background: #0d0018;
 		}
 
-		
+		.contact-button {
+			display: inline-block;
+			margin-bottom: 1rem;
+			padding: 0.75rem 1.5rem;
+			border: 2px solid #b7ff00;
+			border-radius: 999px;
+			color: #0d0018;
+			background: #b7ff00;
+			font-weight: 700;
+			text-decoration: none;
+			text-transform: uppercase;
+		}
+
+		.contact-button:hover,
+		.contact-button:focus-visible {
+			color: #b7ff00;
+			background: transparent;
+		}
 	</style>
 </head>
 <body>
@@ -99,6 +116,8 @@
         
 	</section>
 	<footer>
+		<a class="contact-button" href="mailto:javilindj@gmail.com">Contactar</a>
+		<br>
 		javilindj — Todos los derechos reservados © <span id="current-year"></span>
 	</footer>
 	<script>
